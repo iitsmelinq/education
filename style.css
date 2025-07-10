@@ -93,7 +93,7 @@ nav .fa{
   }
     
   .nav-links {
-    position: fixed;
+    position: absolute;
     background: #ff0000;
     height: 100vh;
     width: 200px;
@@ -107,13 +107,13 @@ nav .fa{
   .nav .fa {
     display: block;
     color: #fff;
+    margin: 10px;
     font-size: 22px;
     cursor: pointer;
-    margin: 10px;
   }
 
   .nav-links ul {
-    display: none;
+    display: 30px;
   }
 }
 
