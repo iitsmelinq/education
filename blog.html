@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rattakosin Sompoch Bangkhen School</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="subb-bg-rsb">
+        <nav>
+            <a href="index.html"><img src="https://rsb.ac.th/home/wp-content/uploads/2024/05/10105621_0_20201223-111030-1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+
+        <h1>ผลงานดีเด่นของทางโรงเรียน</h1>
+    </section>
+
+     <!------JavaScript for Toggle Menu------>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+    <!----- blog page content ----->
+    <section class="blog-content"
+    >
+    <div class="row">
+        <div class="blog-left">
+            <img src="https://rsb.ac.th/home/wp-content/uploads/2024/05/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD-%E0%B8%A3%E0%B8%AA%E0%B8%9A-67-E-Book_page-0018.jpg">
+            <h2>เกียรติคุณของทางโรงเรียน</h2>
+            <p>โรงเรียนรัตนโกสินทร์เป็นโรงเรียนต้นแบบระดับต้นๆของประเทศในด้านการเรียนการสอน และการใช้ชีวิต</p>
+            <a href="#" class="hero-btn red-btn">Learn More</a>
+        </div>
+        <div class="blog-right">
+            <img src="https://rsb.ac.th/home/wp-content/uploads/2024/05/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD-%E0%B8%A3%E0%B8%AA%E0%B8%9A-67-E-Book_page-0019.jpg">
+            <h2></h2>
+            <p>
+        </div>
+    </div>
+    
+    </section>
+
+<!------ Footer ----->
+
+<section class="footer">
+    <h4>เกี่ยวกับเรา</h4>
+    <p>รัตนโกสินทร์สมโภชบางเขนสถานที่แห่งความสุขและรอยยิ้ม ยินดีต้อนรับทุกคนสู่ลูกเทวา</p>
+    <div class="icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>&copy; 2025 โรงเรียนรัตนโกสินทร์สมโภชบางเขน กรุงเทพมหานคร <br>Made with iitsmelinq.</p>
+</section>
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks"); 
+function showMenu() {
+        navLinks.style.right = "0";
+    }
+function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>

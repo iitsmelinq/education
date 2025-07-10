@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rattakosin Sompoch Bangkhen School</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="subbb-bg-rsb">
+        <nav>
+            <a href="index.html"><img src="https://rsb.ac.th/home/wp-content/uploads/2024/05/10105621_0_20201223-111030-1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+    </section>
+
+     <!------JavaScript for Toggle Menu------>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+    <!----- contact us ----->
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.4705185847833!2d100.6419033737568!3d13.870790986533605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d7d6deb6b93f9%3A0xc38218d002280a36!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZ4Lij4Lix4LiV4LiZ4LmC4LiB4Liq4Li04LiZ4LiX4Lij4LmM4Liq4Lih4LmC4Lig4LiK4Lia4Liy4LiH4LmA4LiC4LiZ!5e0!3m2!1sth!2sth!4v1752143100455!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                <i class="fa fa-home"></i>
+                <span>
+                <h3>Address</h3>
+                <p>123 Rattakosin Road, Bangkhen, Bangkok, Thailand</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                <h3>Phone</h3>
+                <p>+66 2948 0621</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                <h3>Email</h3>
+                <p>rsbcenter@rsb.ac.th</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="text" placeholder="Enter your Subject" required>
+                <textarea rows="8" placeholder="Enter Your Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+
+
+        </div>
+    </div>
+
+    </section>
+
+    
+
+
+
+<!------ Footer ----->
+
+<section class="footer">
+    <h4>เกี่ยวกับเรา</h4>
+    <p>รัตนโกสินทร์สมโภชบางเขนสถานที่แห่งความสุขและรอยยิ้ม ยินดีต้อนรับทุกคนสู่ลูกเทวา</p>
+    <div class="icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>&copy; 2025 โรงเรียนรัตนโกสินทร์สมโภชบางเขน กรุงเทพมหานคร <br>Made with iitsmelinq.</p>
+</section>
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks"); 
+function showMenu() {
+        navLinks.style.right = "0";
+    }
+function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
